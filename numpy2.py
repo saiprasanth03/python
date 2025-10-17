@@ -1,0 +1,10 @@
+import numpy as np
+arr1 = np.array([10,20,30,40,50,60,70])
+arr2 = np.array([[1,2,3],[4,5,6]])
+print("Array1 is ",arr1)
+print("Array2 is ",arr2)
+print("Array1 dimension",arr1.ndim)
+print("Array2 dimension",arr2.ndim)
+print("Array2 shape",arr2.shape)
+print("Array1 size",arr1.size)
+print("Array1 datatype",arr1.dtype)
